@@ -1,0 +1,326 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+.nihar {
+    width: 100%;
+    height: 70px;
+    border-bottom: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 3fr 4.5fr 1.5fr;
+    /* position:fixed; */
+    top:0;
+    background-color: white;
+}
+
+.logo img {
+    margin: auto;
+    height: 60px;
+    width: 90px;
+    margin-left: 70px;
+}
+
+.Menuu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Menuu a {
+    display: flex;
+    color: black;
+    align-items: center;
+    font-size: 1.2rem;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 22px;
+
+}
+* {
+    box-sizing: border-box;
+}
+
+.Menn a {
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Menn:hover {
+    color: red;
+    border-radius: 4px;
+    border-bottom: 3px solid red;
+    /* z-index: 9999 !important; */
+}
+
+.submenuu ul {
+    display: none;
+    width:150px;
+    position: absolute;
+    /* z-index: 9999 !important; */
+}
+
+.Menn:hover>.submenuu ul {
+    display: block;
+    position: fixed;
+    background-color: white;
+    margin-top: 24px;
+    margin-left: 1px;
+    border-radius:5px;
+    /* overflow-y: scroll !important; */
+    z-index: 9999 !important;
+    
+}
+
+.Menn:hover>.submenuu ul {
+    position: fixed;
+    display: block;
+    z-index:1;
+    /* z-index: 99999 !important; */
+    
+}
+
+.Menn:hover>.submenuu ul li {
+    /* position: fixed; */
+    list-style: none;
+    padding: 2px;
+    text-align: center;
+    margin-left: 12px;
+    /* z-index: 999999 !important; */
+    
+}
+
+.Menn:hover>.submenuu ul li a:hover {
+    color: red;
+    font-size: 1.4rem;
+    /* z-index: 9999999 !important; */
+    text-decoration: none;
+}
+.women a {
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.women:hover {
+    color: red;
+    border-radius: 4px;
+    border-bottom: 3px solid red;
+}
+
+.submenuu-2 ul {
+    display: none;
+}
+
+.women:hover>.submenuu-2 ul {
+    display: block;
+    width:150px;
+    position: absolute;
+    background-color: white;
+    margin-top: 24px;
+    margin-left: 1px;
+    border-radius:5px;
+    z-index: 1;
+    
+}
+
+.women:hover>.submenuu-2 ul {
+    display: block;
+    z-index:1;
+    /* border-top:3px solid red; */
+ 
+}
+
+.women:hover>.submenuu-2 ul li {
+   
+    list-style: none;
+    
+    padding: 2px;
+    text-align: center;
+    margin-left: 12px;
+  
+}
+
+.women:hover>.submenuu-2 ul li a:hover {
+    color: red;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+
+
+.kids a {
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.kids:hover {
+    color: red;
+    border-radius: 4px;
+    border-bottom: 3px solid red;
+    
+}
+.submenuu-3 ul {
+    display: none;
+}
+
+.kids:hover>.submenuu-3 ul {
+    display: block;
+    width:150px;
+    position: absolute;
+    background-color: white;
+    margin-top: 24px;
+    margin-left: 1px;
+    border-radius:5px;
+    
+}
+
+.kids:hover>.submenuu-3 ul {
+    display: block;
+    z-index:1;
+    /* border-top:3px solid red; */
+    /* margin-top: 20px; */
+}
+
+.kids:hover>.submenuu-3 ul li {
+    /* display: flex; */
+
+    /* width: 88px; */
+    list-style: none;
+    /* border: 1px solid black; */
+    padding: 2px;
+    text-align: center;
+    margin-left: 12px;
+    /* margin-left:-20px; */
+}
+
+.kids:hover>.submenuu-3 ul li a:hover {
+    color: red;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.Search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbox {
+   
+    border: 0.3px solid black;
+    width: 550px;
+    height: 30px;
+    background-color: rgb(196, 195, 195);
+   
+    border-radius: 5px;
+
+}
+.searchbox input {
+    margin-left:10px;
+    background-color: rgb(196, 195, 195);
+    font-size: 1rem;
+    border: none;
+}
+.searchbox input:hover {
+    border: none;
+    background-color: white;
+}
+
+.searchbox:hover {
+    background-color: white;
+}
+.User {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.profile {
+    /* border-right: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.profile a {
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.profile:hover {
+    color: red;
+    border-radius: 4px;
+    /* border-bottom: 3px solid red; */
+}
+.sub-profile ul {
+    display: none;
+}
+.profile:hover>.sub-profile ul {
+    display: block;
+    width:120px;
+    position: absolute;
+    background-color: white;
+    margin-top: 24px;
+    margin-left: -60px;
+    border-radius:5px;
+    /* border-top: 3px solid blue; */
+}
+.profile:hover>.sub-profile ul {
+    display: block;
+    z-index:1;
+    border-top:3px solid red;
+    /* margin-top: 20px; */
+}
+.profile:hover>.sub-profile ul li {
+    /* display: flex; */
+
+    /* width: 88px; */
+    list-style: none;
+    /* border: 1px solid black; */
+    padding: 2px;
+    text-align: center;
+    margin-left: 12px;
+    /* margin-left:-20px; */
+}
+
+.profile:hover>.sub-profile ul li a:hover {
+    color: red;
+    /* font-size: 1.4rem; */
+    font-weight:300;
+    text-decoration: none;
+}
+.lsg{
+    border: 1.5px solid black;
+    padding:8px;
+}
+.bag {
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bag a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+}

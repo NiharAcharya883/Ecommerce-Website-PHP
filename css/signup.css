@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.main{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+    
+
+.box{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: 0.7fr 3fr 0.5fr;
+
+}
+.header{
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.body{
+    border-bottom: 2px solid black;
+    display: grid;
+    grid-template-columns: 1.8fr 3fr;
+}
+.left{
+    border-right: 2px solid black;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.naam{
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.passwd{
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cpasswd{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.right{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+.e_naam{
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.e_name input{
+    padding: 4px;
+}
+.e_passwd{
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.e_cpasswd{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer input{
+    color: white;
+    border: 1px solid black;
+    padding: 9px;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    background-color: black;
+}

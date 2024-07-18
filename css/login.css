@@ -1,0 +1,117 @@
+
+body{
+    margin:0px;
+    padding:0px;
+    content: "";
+    height: 750px;
+    width: 100%;
+    position: absolute;
+    opacity: 0.8;
+    
+}
+
+.main{
+    z-index: 1;
+    height: 750px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border: 2px solid black;
+    z-index: -1;
+
+}
+.box{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr 1fr;
+    background-color: white;
+    z-index: 0.5;
+    filter: brightness(100%);
+
+}
+.header{
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.body{
+    border-bottom: 2px solid black;
+    display: grid;
+    grid-template-columns: 1.8fr 3fr;
+}
+.left{
+    border-right: 2px solid black;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.naam{
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.passwd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+}
+.e_naam{
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.e_passwd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer{
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer input{
+    width: 100px;
+    text-align: center;
+    color:white;
+    border: 1px solid black;
+    padding: 8px;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    background-color:red;
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.signup a{
+    width: 80px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 6px;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
